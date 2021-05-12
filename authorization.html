@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Авторизация</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plaster&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header scrollto">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header-logo" style="padding: 23px 0;">
+          <a class="header-logo__name" href="index.html">SR</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="authorization" style="background-image: url(img/bg-img.png);">
+    <div class="container">
+      <div class="authorization-wrapper">
+        <a class="authorization-title" href="index.html">SR</a>
+        <form class="authorization-login form">
+          <div class="authorization-login__inner">
+            <label class="authorization-login__box">
+              <?xml version="1.0" encoding="UTF-8" standalone="no"?> <svg class="authorization-logo" id="Layer_1" data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+
+                <title>n</title>
+                <path class="cls-1"
+                  d="M52.2586,72.67626l6.74487,8.99455-5.05971,43.75525H5.567S5.90819,106.48062,7.83352,95.249a11.98538,11.98538,0,0,1,6.45842-8.69964c11.23157-5.599,35.87708-13.8731,35.87708-13.8731Z" />
+                <path class="cls-1"
+                  d="M122.433,125.42605h-47.113L68.99648,81.675l6.74487-8.99876h2.08542s24.64972,8.27413,35.88135,13.8731a11.99594,11.99594,0,0,1,6.45837,8.69964C122.09176,106.48062,122.433,125.42605,122.433,125.42605Z" />
+                <path class="cls-1"
+                  d="M64,64.62753h0a22.227,22.227,0,0,1-21.81889-17.987L38.78137,29.1458A23.419,23.419,0,0,1,61.98722,2.57395h4.02555A23.419,23.419,0,0,1,89.21863,29.1458L85.81891,46.64051A22.227,22.227,0,0,1,64,64.62753Z" />
+              </svg>
+              <input class="authorization-login__input" required name="username" id="username" placeholder="Username" onchange = "cl();">
+            </label>
+            <label class="authorization-login__box">
+              <?xml version="1.0" encoding="utf-8"?>
+              <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+              <svg class="authorization-logo" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+              <path d="M21,8.2V5c0-2.8-2.2-5-5-5s-5,2.2-5,5v3.2C9.8,8.6,9,9.7,9,11v4c0,1.7,1.3,3,3,3h8c1.7,0,3-1.3,3-3v-4
+                C23,9.7,22.2,8.6,21,8.2z M17,14c0,0.6-0.4,1-1,1s-1-0.4-1-1v-2c0-0.6,0.4-1,1-1s1,0.4,1,1V14z M19,8h-6V5c0-1.7,1.3-3,3-3
+                s3,1.3,3,3V8z"/>
+              <path d="M18.5,23.1L17,23.6V22c0-0.6-0.4-1-1-1s-1,0.4-1,1v1.6l-1.5-0.5c-0.5-0.2-1.1,0.1-1.3,0.6c-0.2,0.5,0.1,1.1,0.6,1.3l1.5,0.5
+                l-1,1.3c-0.3,0.4-0.2,1.1,0.2,1.4c0.2,0.1,0.4,0.2,0.6,0.2c0.3,0,0.6-0.1,0.8-0.4l1-1.3l1,1.3c0.2,0.3,0.5,0.4,0.8,0.4
+                c0.2,0,0.4-0.1,0.6-0.2c0.4-0.3,0.5-1,0.2-1.4l-1-1.3l1.5-0.5c0.5-0.2,0.8-0.7,0.6-1.3C19.6,23.2,19.1,23,18.5,23.1z"/>
+              <path d="M29.8,23.8c-0.2-0.5-0.7-0.8-1.3-0.6L27,23.6V22c0-0.6-0.4-1-1-1s-1,0.4-1,1v1.6l-1.5-0.5c-0.5-0.2-1.1,0.1-1.3,0.6
+                c-0.2,0.5,0.1,1.1,0.6,1.3l1.5,0.5l-1,1.3c-0.3,0.4-0.2,1.1,0.2,1.4c0.2,0.1,0.4,0.2,0.6,0.2c0.3,0,0.6-0.1,0.8-0.4l1-1.3l1,1.3
+                c0.2,0.3,0.5,0.4,0.8,0.4c0.2,0,0.4-0.1,0.6-0.2c0.4-0.3,0.5-1,0.2-1.4l-1-1.3l1.5-0.5C29.7,24.9,30,24.3,29.8,23.8z"/>
+              <path d="M8.5,23.1L7,23.6V22c0-0.6-0.4-1-1-1s-1,0.4-1,1v1.6l-1.5-0.5c-0.5-0.2-1.1,0.1-1.3,0.6C2,24.3,2.3,24.9,2.8,25l1.5,0.5
+                l-1,1.3c-0.3,0.4-0.2,1.1,0.2,1.4c0.2,0.1,0.4,0.2,0.6,0.2c0.3,0,0.6-0.1,0.8-0.4l1-1.3L7,28c0.2,0.3,0.5,0.4,0.8,0.4
+                c0.2,0,0.4-0.1,0.6-0.2c0.4-0.3,0.5-1,0.2-1.4l-1-1.3L9.2,25c0.5-0.2,0.8-0.7,0.6-1.3C9.6,23.2,9.1,23,8.5,23.1z"/>
+              </svg>
+              
+              <input class="authorization-login__input" type="password" required name="pass" id="pass" placeholder="Password" onchange = "ps();">
+            </label>
+          </div>
+          <div id = "div"></div>      
+          <a href="#!" class="authorization-login__registr">Регистрация</a>
+          <button class="authorization-login__btn" id="signin" onclick="opennewtab('lk.html')">Войти</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-info">©2021 <span class="footer-info--style">SR</span></p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
